@@ -1,0 +1,46 @@
+.aboutContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: fit-content;
+  max-width: 100%;
+  margin: -70px 40px 0 40px;
+}
+
+.aboutLeft {
+  max-width: 50%;
+  min-width: 50%;
+  color: #fff;
+  background-color: #1659d7;
+  border-radius: 8px 0 0 8px;
+}
+
+.aboutRight {
+  max-width: 50%;
+  min-width: 50%;
+  color: #fff;
+  background-color: #292d33;
+  border-radius: 0 8px 8px 0;
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-height: fit-content;
+  max-width: 100%;
+}
+
+.leftInner {
+  padding-left: 110px;
+  padding: 50px 40px 50px 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.rightInner {
+  padding: 50px 40px 50px 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

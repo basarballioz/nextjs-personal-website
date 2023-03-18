@@ -2,10 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #1659d7;
   color: #fff;
   height: 80px;
-  font-family: "Roboto", sans-serif;
 }
 
 .navbarContainer {
@@ -48,8 +47,9 @@
 }
 
 .navbarLink:hover {
-  background-color: #555;
+  background-color: #fff;
   border-radius: 5px;
+  color: #1659d7;
 }
 
 .navbarToggle {
