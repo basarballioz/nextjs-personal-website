@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { FaBars, FaTimes } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 
@@ -12,7 +13,13 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <div className={styles.navbarContainer}>
         <Link href="/" legacyBehavior>
-          <a className={styles.navbarLogo}>Logo</a>
+          <Image
+            src="/assets/img/myLogo.png"
+            alt="Site Logo"
+            width={60}
+            height={60}
+            className={styles.navbarLogo}
+          />
         </Link>
         <div className={styles.navbarToggle} onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
