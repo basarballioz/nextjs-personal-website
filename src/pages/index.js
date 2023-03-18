@@ -1,5 +1,11 @@
-import styles from "@/styles/Home.module.css";
+import Layout from "@/components/Layout/Layout";
 
-export default function Home() {
-  return <div>This is NEXT JS </div>;
-}
+const Homepage = () => {
+  return (
+    <Layout>
+      <h1>Welcome to my website</h1>
+    </Layout>
+  );
+};
+
+export default Homepage;
