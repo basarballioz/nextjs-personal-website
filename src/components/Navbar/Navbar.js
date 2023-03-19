@@ -16,7 +16,7 @@ const Navbar = () => {
           <Image
             src="/assets/img/myLogo.png"
             alt="Site Logo"
-            width={60}
+            width={50}
             height={60}
             className={styles.navbarLogo}
           />
