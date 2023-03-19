@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout/Layout";
 import FullWidthImage from "@/components/FullWidthImage/FullWidthImage";
 import AboutContainer from "@/components/AboutContainer/AboutContainer";
+import ProjectsContainer from "@/components/ProjectsContainer/ProjectsContainer";
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
       </Layout>
       <FullWidthImage />
       <AboutContainer />
+      <ProjectsContainer />
     </div>
   );
 };

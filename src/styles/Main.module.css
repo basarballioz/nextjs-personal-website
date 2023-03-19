@@ -1,0 +1,9 @@
+.limitContainer {
+  margin: -70px 40px 20px 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .limitContainer {
+    margin: 0;
+  }
+}

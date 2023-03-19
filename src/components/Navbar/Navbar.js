@@ -12,31 +12,33 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navbarContainer}>
-        <Link href="/" legacyBehavior>
-          <Image
-            src="/assets/img/myLogo.png"
-            alt="Site Logo"
-            width={50}
-            height={60}
-            className={styles.navbarLogo}
-          />
+        <Link href="/" passHref legacyBehavior>
+          <a>
+            <Image
+              src="/assets/img/myLogo.png"
+              alt="Site Logo"
+              width={50}
+              height={50}
+              className={styles.navbarLogo}
+            />
+          </a>
         </Link>
         <div className={styles.navbarToggle} onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
         </div>
         <ul className={`${styles.navbarMenu} ${isOpen ? styles.active : ""}`}>
           <li className={styles.navbarItem}>
-            <Link href="/" legacyBehavior>
+            <Link href="/" passHref legacyBehavior>
               <a className={styles.navbarLink}>Home</a>
             </Link>
           </li>
           <li className={styles.navbarItem}>
-            <Link href="/about" legacyBehavior>
+            <Link href="/about" passHref legacyBehavior>
               <a className={styles.navbarLink}>About</a>
             </Link>
           </li>
           <li className={styles.navbarItem}>
-            <Link href="/contact" legacyBehavior>
+            <Link href="/contact" passHref legacyBehavior>
               <a className={styles.navbarLink}>Contact</a>
             </Link>
           </li>
